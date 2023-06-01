@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    background-image: url("./background3.jpg");
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#playArea{
+    display: flex;
+
+}
+.hide{
+    display: none;
+}
+#board{
+    border: 5px solid black;
+    height: 82vmin;
+    width: 90vmin; 
+}
+.count{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    margin: 3px 20px 0;
+    border: 5px solid bla;
+}
+.count h2{
+    font-size: 5rem;
+
+}
+#pointsHeading{
+    background-color: greenyellow;
+    width: 100%;
+}
+.points{
+    width: 100%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 3px;
+    padding: 20px 0;
+}
+
+@media screen and (min-width:300px) and (max-width:650px) {
+    #board{
+        border: 10px solid black;
+        min-height: 100vmin;
+        max-width:95vmin;
+    }
+    #playArea{
+        display: flex;
+         flex-direction: column;
+    }
+    .count{
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 0;
+        height: 120px;
+        border: 5px solid black;
+    }
+    #pointsHeading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        background-color: greenyellow;
+        height: 100%;
+    }
+    .playButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .hide{
+        margin: 0 20px;
+        display: block;
+    }
+    .points{
+        text-align: center;
+        width: 50%;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button{
+        padding: 20px;
+    }
+    h1{
+        margin-top: 0;
+        padding: 20px 0 20px 0;
+        font-size: 3rem;
+     
+        width: 100%;
+        text-align: center;
+    }
+}
